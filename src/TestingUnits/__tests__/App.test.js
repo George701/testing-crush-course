@@ -1,6 +1,6 @@
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen, fireEvent, act } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import App from './App';
+import App from '../App';
 
 // Need to find an element - getBy
 // Need to show that element is not in the DOM - queryBy
@@ -8,6 +8,7 @@ import App from './App';
 // after async function it appears - findBy
 
 describe('App', () => {
+  
 
   // test('renders learn react link', () => {
   //   render(<App />);

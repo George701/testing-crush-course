@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import { render, screen, act } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import Async, { URL } from './Async';
+import Async, { URL } from '../Async';
 
 jest.mock("axios");
 
