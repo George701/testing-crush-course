@@ -1,9 +1,13 @@
 import React from 'react'
-import ReactRouter from './ReactRouter/ReactRouter'
+import ReactRedux from './ReactRedux/ReactRedux'
+import { Provider } from 'react-redux'
+import {createReduxStore} from './ReactRedux/store'
 
 const App = () => {
   return (
-    <ReactRouter />
+    <Provider store={createReduxStore()}>
+      <ReactRedux />
+    </Provider>
   )
 }
 
