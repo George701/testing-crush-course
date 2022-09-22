@@ -1,8 +1,9 @@
 import React from 'react'
+import ReactRouter from './ReactRouter/ReactRouter'
 
 const App = () => {
   return (
-    <div>App</div>
+    <ReactRouter />
   )
 }
 
